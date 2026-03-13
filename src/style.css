@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glass {
+    @apply bg-white/80 backdrop-blur-md shadow-lg border border-white/20;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
